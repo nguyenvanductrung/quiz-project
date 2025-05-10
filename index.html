@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm QP2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Trắc nghiệm QP2</h1>
+        <div id="question-number"></div>
+        <div id="question-text"></div>
+        <div id="choices"></div>
+        <div id="navigation">
+            <button id="prev-btn">Trước</button>
+            <button id="next-btn">Tiếp theo</button>
+            <button id="submit-btn" style="display: none;">Hoàn tất</button>
+        </div>
+        <div id="jump-to-question">
+            <label for="question-select">Chuyển đến câu hỏi: </label>
+            <select id="question-select"></select>
+        </div>
+        <div id="result" style="display: none;"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
